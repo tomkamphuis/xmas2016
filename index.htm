@@ -7,28 +7,49 @@
         stroke: #E6E6E6;
         stroke-width:2px;   
       }
-
-      text.mono {
-        font-size: 9pt;
-        font-family: Consolas, courier;
-        fill: #aaa;
+      rect.bin {
+        fill:wheat;
+      }
+      rect.box {
+        opacity:0.5;
+      }
+      rect.error {
+        stroke: #E60000;
+        stroke-width:4px;   
+      }
+      #header{
+        background-image: url(santabanner.png);
+        background-repeat: no-repeat;
+        height:150px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       }
 
-      text.axis-workweek {
-        fill: #000;
-      }
+      #header>div{
+        float:right;
+        background: #fff;
+        opacity: 0.7;
 
-      text.axis-worktime {
-        fill: #000;
+      }
+      .dataset-button {
+        display:block;
       }
     </style>
     <script data-main="script/app" src="script/require.js"></script>
   </head>
   <body>
-    <div id="chart"></div>
-    <div id="dataset-picker">
+    <div id="header">
+      <div id="dataset-picker">
+      </div>
+      <div><button id="play">RUN!</button></div>
+      <div id="score">
+        <div>Time spent: <span id="val-time"></span> ms.</div>
+        <div>Packed: <span id="val-packnr"></span> (<span id="val-packpt"></span> points)</div>
+        <div>Bins used: <span id="val-binnr"></span> (<span id="val-binpt"></span> points)</div>
+        <div>Total: <span id="val-totalpt"></span> points</div>
+      </div>
+
     </div>
-    <script type="text/javascript">
-    </script>
+    <div id="chart"></div>
+
   </body>
 </html>
