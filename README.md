@@ -20,7 +20,7 @@ Multiple sets of bins and packets will be run. For each of these sets independen
   1. A data set cannot earn you negative points
   2. A data set earns you nothing when the packing of one of the packets is illegal (partly outside the assigned bin, overlapping with another packet, etc.). 
   3. Each packet correctly packed scores you its surface in points (h x w)
-  4. Bins used subtract 5 times their circumference from your points (2h + 2w)*10
+  4. Bins used subtract 10 times their circumference from your points (2h + 2w)*10
   5. The fastest solution in each of the data sets earns 20% bonus points (for that set)
   6. If the highest number of points in a data set is above 1000, all points earned for that set are scaled down to make the highest score 1000. (this is to make all sets score more or less the same number of points)
 
