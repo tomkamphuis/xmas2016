@@ -13,7 +13,7 @@ To view the files in your browser, you can host the files in any web server. One
     npm install http-server -g
     http-server
 
-To see a short demo look at this YouTube video: https://www.youtube.com/watch?v=uMBi1Jj-rX0
+To see a short demo look at this YouTube video: https://www.youtube.com/watch?v=uMBi1Jj-rX0 The dummy algorithm in master can be seen in action here: https://rawgit.com/Teun/xmas2016/master/index.htm
 
 ## Point scoring
 Multiple sets of bins and packets will be run. For each of these sets independently, points can be earned. The total score is the sum of points earned for all data sets. 
