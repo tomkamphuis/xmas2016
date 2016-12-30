@@ -57,7 +57,7 @@ define(["lodash"], function (_) {
                 var usedBins = _.without(_.uniq(_.map(packs, 'bin')), '');
                 result.score.usedBins = usedBins.length;
                 result.score.usedBinsPt = _.reduce(usedBins, function(a,v){
-                    var cost = (binById[v].height * 2) + (binById[v].width * 2) * 10;
+                    var cost = (binById[v].height * 2 + binById[v].width * 2) * 10;
                     return a + cost;
                 }, 0);
             }
