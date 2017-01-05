@@ -25,7 +25,7 @@ Multiple sets of bins and packets will be run. For each of these sets independen
   6. If the highest number of points in a data set is above 1000, all points earned for that set are scaled down to make the highest score 1000. (this is to make all sets score more or less the same number of points)
 
 ## Submitting your solution
-Create a pull request with your solution. You may push changes to your branch until 1 hour before the final demo (date to be announced, but will be after January 8, 2017, so everyone can have a chance in their holidays).
+Create a pull request with your solution. You may push changes to your branch until 1 hour before the final demo (Monday January 9, 11:30 CET).
 
 ## Design
 Yes, I know, it doesn't look very pretty. Yet. If you think you can make the page look nicer, feel free, tinker with it and submit a pull request. Of course, if you contribute to the design, you ARE allowed to touch more files than just packer.js.
